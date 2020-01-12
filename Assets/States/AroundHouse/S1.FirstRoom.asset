@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6df973d680c0d24b859a6418ef3b95d, type: 3}
+  m_Name: S1.FirstRoom
+  m_EditorClassIdentifier: 
+  storyText: 'You enter a room with three doors. There is a red puddle before the
+    first door, the second door appears worn out and there is nothing specific about
+    the third one.
+
+
+    1. Open the first door.
+
+    2. Open the second door.
+
+    3.
+    Open the third door.'
+  nextStates:
+  - {fileID: 11400000, guid: 9f309b1f7d405d14cafc5b16ecda19ae, type: 2}
+  - {fileID: 11400000, guid: 0bfaf4c79556d544284bc74262667fea, type: 2}
+  - {fileID: 11400000, guid: a4f8bbadec068f64bb1bd40185c0f1d1, type: 2}

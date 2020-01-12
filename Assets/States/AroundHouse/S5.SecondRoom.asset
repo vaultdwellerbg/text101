@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6df973d680c0d24b859a6418ef3b95d, type: 3}
+  m_Name: S5.SecondRoom
+  m_EditorClassIdentifier: 
+  storyText: 'There is a guard in the second room. It has a sword in his left hand
+    and a shield in his right hand. You pull your own sword with your right hand
+    and prepare to hit him.
+
+
+    1. Hit to his left.
+
+    2. Hit to his right.
+
+    3.
+    Wait for him to attack.'
+  nextStates:
+  - {fileID: 11400000, guid: 84efb605f95a96b449a6b814a833226d, type: 2}
+  - {fileID: 11400000, guid: 3c2c0be1b91c4bd40aae076d62a86032, type: 2}
+  - {fileID: 11400000, guid: c5add0d90ef61554584a9f34d61c1add, type: 2}
